@@ -1,4 +1,4 @@
-# Teraform
+# Terraform
 Terraform at ITYOURWAY
 
 # Directory Structure
