@@ -81,11 +81,12 @@ Our approach to creating an infrastructure is to avoid creating a single monolit
 
 Resources structure will be heavily dependent upon the cloud provider and the way that they structure their resources internally. All known examples will be documented in the provider folder's README.md. See links below.
 
-Cloud Providers:
-short code    provider
-gcp             Google Cloud
-aws             Amazon Web Services
-azure           Azure
+###### Cloud Providers:
+| __short code__      | __provider__        |
+|---------------------|---------------------|
+| aws                 | Amazon Web Services |
+| gcp                 | Google Cloud Platform|
+| azure               | Azure               |
 
 
 # Terraform Module 
