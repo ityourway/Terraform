@@ -1,0 +1,7 @@
+# Ignore all files with .tfstate extension
+*.tfstate
+*.backup
+*.hcl
+
+# Ignore .terraform directory
+.terraform/
