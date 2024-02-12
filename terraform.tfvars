@@ -1,5 +1,5 @@
 aws_region                  = "us-east-1"
-ec2_ami                     = "ami-01e82af4e524a0aa3"
+ec2_ami                     = "ami-0e731c8a588258d0d"
 ec2_count                   = "1"
 ec2_instance_type           = "t3.micro"
 s3_bucket_name              = "ityourway-bucket"

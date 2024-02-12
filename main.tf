@@ -31,7 +31,7 @@ module "vpc" {
 }
 
 module "iam_role" {
-  source = "./iam_role"
+  source = "./aws_iam"
   iam_role_name = var.iam_role_name
   iam_user_name = var.iam_user_name
   iam_group_name = var.iam_group_name
