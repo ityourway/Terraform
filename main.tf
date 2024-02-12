@@ -13,6 +13,7 @@ module "ec2_instance" {
   secret_key = var.secret_key
   ec2_count  = var.ec2_count
   sg_name = var.sg_name
+  ec2_name = var.ec2_name
 }
 
 module "s3_bucket" {

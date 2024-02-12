@@ -81,3 +81,7 @@ variable "sg_name" {
   type = string
 }
 
+variable "ec2_name" {
+  description = "ec2 instence name "
+  type = string
+}
