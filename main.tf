@@ -5,15 +5,15 @@ provider "aws" {
 }
 
 module "ec2_instance" {
-  source     = "./ec2_instance"
-  aws_region = var.aws_region
-  ec2_ami    = var.ec2_ami
+  source            = "./ec2_instance"
+  aws_region        = var.aws_region
+  ec2_ami           = var.ec2_ami
   ec2_instance_type = var.ec2_instance_type
   ec2_instance_name = var.ec2_name
-  access_key = var.access_key
-  secret_key = var.secret_key
-  ec2_count  = var.ec2_count
-  sg_name    = var.sg_name
+  access_key        = var.access_key
+  secret_key        = var.secret_key
+  ec2_count         = var.ec2_count
+  sg_name           = var.sg_name
 }
 
 module "s3_bucket" {
