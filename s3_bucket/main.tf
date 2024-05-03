@@ -1,5 +1,8 @@
 # Use variables from the root variables.tf file
-variable "s3_bucket_name" {}
+variable "s3_bucket_name" {
+  type = string 
+  default = "example-bucket-name"
+}
 
 resource "aws_s3_bucket" "example_bucket" {
   bucket = var.s3_bucket_name
@@ -20,7 +23,7 @@ resource "aws_s3_bucket" "example_bucket" {
       }
     }
   }
-  
+
   tags = {
     Name = "Example S3 Bucket"
   }

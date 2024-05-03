@@ -81,6 +81,7 @@ variable "group_membership_name" {
   description = "name for group membership "
   type        = string
 }
+
 variable "sg_name" {
   description = "security group name "
   type        = string
