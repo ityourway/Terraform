@@ -7,5 +7,5 @@ output "vpc_id" {
 }
 
 output "iam_role_arn" {
-  value = module.iam_role.role_arn
+  value = module.iam_resources.role_arn
 }

@@ -30,8 +30,8 @@ module "vpc" {
   private_subnet_availability_zone = var.private_subnet_availability_zone
 }
 
-module "iam_role" {
-  source                = "./iam_role"
+module "iam_resources" {
+  source                = "./iam_resources"
   iam_role_name         = var.iam_role_name
   iam_user_name         = var.iam_user_name
   iam_group_name        = var.iam_group_name
